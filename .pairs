@@ -1,0 +1,12 @@
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+  ay: Alan Yeo; alan
+  br: Zidni Mubarock; barock
+  hg: Hendra Gunawan; drabiter
+  gh: Gabe Hollombe; gabe
+  pl: Panggi Libersa; panggi
+  mc: Michael Cheng; michael
+  bg: Budi Gandasoebrata; budi
+email:
+  prefix: pair
+  domain: veritrans.co.id
