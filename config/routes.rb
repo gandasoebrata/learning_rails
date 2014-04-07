@@ -1,4 +1,7 @@
 Veritweet::Application.routes.draw do
+  get "tweets" => "tweets#index"
+  get "tweets/new" => "tweets#new"
+  post "tweets" => "tweets#create"
   get "user_sessions/new" => 'user_sessions#new'
   post "user_sessions" => 'user_sessions#create'
 
