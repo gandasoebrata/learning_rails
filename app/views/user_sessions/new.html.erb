@@ -1,0 +1,10 @@
+Current user: <%= session[:current_user] %>
+Is admin?: <%= session[:is_admin] %>
+
+<h1> Sign In </h1>
+
+<form action="/user_sessions" method="post">
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" />
+  <input type="submit" value="Sign In" />
+</form>

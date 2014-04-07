@@ -1,4 +1,7 @@
 Veritweet::Application.routes.draw do
+  get "user_sessions/new" => 'user_sessions#new'
+  post "user_sessions" => 'user_sessions#create'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
